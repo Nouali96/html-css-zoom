@@ -1,0 +1,160 @@
+/*  \/\/\/\/\/\/\/\/\/\/\/\/\/\Regole generali/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.row{
+    flex-direction: row-reverse;
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\Regole generali/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+/* inizio barra di comandi */
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #212021;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.flex {
+    display: flex;
+}
+
+header i{
+    filter: invert();
+    padding-bottom: 10px;
+}
+
+p{
+    filter: invert();
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-main {
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav-left{
+    justify-content: space-around;
+    width: 15%;
+    align-items: center;
+}
+
+.end-meeting {
+    font-size: 15px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    filter: invert();
+}
+
+.nav-main div{
+    margin-left: 5px;
+    margin-left: 5px;
+}
+
+.nav-right{
+    background-color: #404040;
+    width: 150px;
+    height: 100%;
+    z-index: 50;
+}
+
+.fa-chevron-up{
+    font-size: 15px;
+}
+
+.font-size-30{
+    font-size: 30px;
+}
+
+header div{
+    flex-shrink: 0;
+}
+
+.fa-share-square{
+    color: #3C910A;
+    filter: invert(0);
+}
+/* fine barra di comandi */
+
+/* Inizio corpo */
+main i {
+    filter: invert();
+}
+
+.box-grey{
+    background-color: #404040;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    height: 26px;
+    border-radius: 5px;
+}
+
+.fa-th{
+    margin-right: 5px;
+}
+
+button{
+    border: none;
+    background-color: #404040;
+}
+
+.box-img{
+    background-image: url(https://images.unsplash.com/photo-1433162653888-a571db5ccccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    height: 150px;
+    width: 300px;
+    background-size:300px;
+    position: relative;
+    margin: 0.25%;
+    
+}
+
+.box-user{
+    background-color: #404040;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+.container-box{
+    margin-top: 1%;
+    margin-right: 4%;
+    margin-left: 4%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+/* Fine corpo */
